@@ -67,23 +67,23 @@
               </li>
               <!-- Menu Body -->
               <!--<li class="user-body">-->
-                <!--<div class="row">-->
-                  <!--<div class="col-xs-4 text-center">-->
-                    <!--<a href="#">Followers</a>-->
-                  <!--</div>-->
-                  <!--<div class="col-xs-4 text-center">-->
-                    <!--<a href="#">Sales</a>-->
-                  <!--</div>-->
-                  <!--<div class="col-xs-4 text-center">-->
-                    <!--<a href="#">Friends</a>-->
-                  <!--</div>-->
-                <!--</div>-->
-                <!--&lt;!&ndash; /.row &ndash;&gt;-->
+              <!--<div class="row">-->
+              <!--<div class="col-xs-4 text-center">-->
+              <!--<a href="#">Followers</a>-->
+              <!--</div>-->
+              <!--<div class="col-xs-4 text-center">-->
+              <!--<a href="#">Sales</a>-->
+              <!--</div>-->
+              <!--<div class="col-xs-4 text-center">-->
+              <!--<a href="#">Friends</a>-->
+              <!--</div>-->
+              <!--</div>-->
+              <!--&lt;!&ndash; /.row &ndash;&gt;-->
               <!--</li>-->
               <!-- Menu Footer-->
               <li class="user-footer">
                 <!--<div class="pull-left">-->
-                  <!--<a href="#" class="btn btn-default btn-flat">Profile</a>-->
+                <!--<a href="#" class="btn btn-default btn-flat">Profile</a>-->
                 <!--</div>-->
                 <div class="pull-right">
                   <a ng-click="logout()" class="btn btn-default btn-flat">登出</a>
@@ -93,7 +93,7 @@
           </li>
           <!--&lt;!&ndash; Control Sidebar Toggle Button &ndash;&gt;-->
           <!--<li>-->
-            <!--<a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>-->
+          <!--<a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>-->
           <!--</li>-->
         </ul>
       </div>
@@ -127,21 +127,30 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+
+    <section class="content-header">
+      <h1>
+        <small style="margin-bottom: 12px">自定义配置</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> 自定义配置</a></li>
+        <li class="active">列表</li>
+      </ol>
+    </section>
     <!-- Main content -->
-    <section class="content" ui-view="container">
-
-
-        </section>
-        <!-- right col -->
-      </div>
+    <section class="content" style="background-color: #fff" ui-view="container">
 
     </section>
-
-    <footer class="main-footer">
-        <strong>Copyright &copy; 2017 .</strong>
-    </footer>
-    <!-- /.content -->
+    <!-- right col -->
   </div>
+
+  </section>
+
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2017 .</strong>
+  </footer>
+  <!-- /.content -->
+</div>
 </div>
 <!-- ./wrapper -->
 
